@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbb8a2ef-777c-4197-bcc7-9205c7c2e4de" name="Changes" comment="Новый учебный проект">
+    <list default="true" id="fbb8a2ef-777c-4197-bcc7-9205c7c2e4de" name="Changes" comment="Урок по созданию и использованию параметром в тестах">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/People.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SimpleTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SimpleTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,22 +40,36 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="LessonJUnit" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Prokopyev9&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Prokopyev9/CourseAqa.git&quot;,
+    &quot;accountId&quot;: &quot;b266fbd0-c83a-4703-9336-25dae4318cb5&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2rZiNEQKQeXx4vZiJKWROhXhgXE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,65 +77,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.SimpleTests.LessonParam (1).executor": "Run",
+    "JUnit.SimpleTests.LessonParam (2).executor": "Run",
     "JUnit.SimpleTests.LessonParam.executor": "Run",
+    "JUnit.SimpleTests.useJsonHelper.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "LessonJUnit",
+    "git-widget-placeholder": "LessonParametrizedTests",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/irlix/Desktop/CourseJanuary25/CourseAqaGradle25",
     "settings.editor.selected.configurable": "vcs.Subversion.SSH"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SimpleTests.LessonParam (1)">
-    <configuration name="SimpleTests.sestsTwoLessThree (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.SimpleTests.sestsTwoLessThree&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SimpleTests.testSumAAndB" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.SimpleTests.testSumAAndB&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SimpleTests.useJsonHelper">
     <configuration name="SimpleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CourseAqaGradle25.test" />
       <extension name="coverage">
@@ -152,6 +121,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleTests.LessonParam (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CourseAqaGradle25.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SimpleTests" />
+      <option name="METHOD_NAME" value="LessonParam" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleTests.LessonParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CourseAqaGradle25.test" />
       <extension name="coverage">
@@ -168,13 +153,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleTests.useJsonHelper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CourseAqaGradle25.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SimpleTests" />
+      <option name="METHOD_NAME" value="useJsonHelper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimpleTests.useJsonHelper" />
+        <item itemvalue="JUnit.SimpleTests.LessonParam (2)" />
         <item itemvalue="JUnit.SimpleTests.LessonParam (1)" />
         <item itemvalue="JUnit.SimpleTests.LessonParam" />
         <item itemvalue="JUnit.SimpleTests" />
-        <item itemvalue="Gradle.SimpleTests.testSumAAndB" />
-        <item itemvalue="Gradle.SimpleTests.sestsTwoLessThree (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736840551497</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Урок по созданию и использованию параметром в тестах">
+      <option name="closed" value="true" />
+      <created>1736970662543</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736970662543</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +236,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Новый учебный проект" />
-    <option name="LAST_COMMIT_MESSAGE" value="Новый учебный проект" />
+    <MESSAGE value="Урок по созданию и использованию параметром в тестах" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок по созданию и использованию параметром в тестах" />
   </component>
 </project>
