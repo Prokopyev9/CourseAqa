@@ -30,11 +30,13 @@ import java.util.stream.Stream;
 
          People sasha = new People("Sasha", 10, "female");
          String json = objectMapper.writeValueAsString(sasha);
+
          System.out.println(json);
      }
 
      @Test
      public void useJsonHelper() throws IOException {
+
          People people = JsonHelper.fromJson("src/test/resources/stas.json",People.class);
          System.out.println(people);
          System.out.println(JsonHelper.toJson(people));

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbb8a2ef-777c-4197-bcc7-9205c7c2e4de" name="Changes" comment="Урок по созданию и использованию параметром в тестах">
+    <list default="true" id="fbb8a2ef-777c-4197-bcc7-9205c7c2e4de" name="Changes" comment="Урок по Сериализации и Десериализации">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/models/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/People.java" afterDir="false" />
@@ -34,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -74,23 +75,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.SimpleTests.LessonParam (1).executor": "Run",
-    "JUnit.SimpleTests.LessonParam (2).executor": "Run",
-    "JUnit.SimpleTests.LessonParam.executor": "Run",
-    "JUnit.SimpleTests.useJsonHelper.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "LessonParametrizedTests",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/irlix/Desktop/CourseJanuary25/CourseAqaGradle25",
-    "settings.editor.selected.configurable": "vcs.Subversion.SSH"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.PropertiesReaderTests.jacksonReaderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PropertiesReaderTests.ownerReaderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PropertiesReaderTests.simpleReaderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SimpleTests.LessonParam (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SimpleTests.LessonParam (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SimpleTests.LessonParam.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SimpleTests.useJsonHelper.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;LessonParametrizedTests&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/irlix/Desktop/CourseJanuary25/CourseAqaGradle25&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.SimpleTests.useJsonHelper">
-    <configuration name="SimpleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.PropertiesReaderTests.ownerReaderTest">
+    <configuration name="PropertiesReaderTests.jacksonReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CourseAqaGradle25.test" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +103,41 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SimpleTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="tests.PropertiesReaderTests" />
+      <option name="METHOD_NAME" value="jacksonReaderTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropertiesReaderTests.ownerReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CourseAqaGradle25.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PropertiesReaderTests" />
+      <option name="METHOD_NAME" value="ownerReaderTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropertiesReaderTests.simpleReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CourseAqaGradle25.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PropertiesReaderTests" />
+      <option name="METHOD_NAME" value="simpleReaderTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,22 +158,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleTests.LessonParam (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CourseAqaGradle25.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SimpleTests" />
-      <option name="METHOD_NAME" value="LessonParam" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SimpleTests.LessonParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CourseAqaGradle25.test" />
       <extension name="coverage">
@@ -147,7 +168,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.SimpleTests" />
-      <option name="METHOD_NAME" value="LessonParam(java.lang.String,java.lang.Integer,java.lang.String)" />
+      <option name="METHOD_NAME" value="LessonParam" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,11 +192,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PropertiesReaderTests.ownerReaderTest" />
+        <item itemvalue="JUnit.PropertiesReaderTests.jacksonReaderTest" />
+        <item itemvalue="JUnit.PropertiesReaderTests.simpleReaderTest" />
         <item itemvalue="JUnit.SimpleTests.useJsonHelper" />
-        <item itemvalue="JUnit.SimpleTests.LessonParam (2)" />
-        <item itemvalue="JUnit.SimpleTests.LessonParam (1)" />
-        <item itemvalue="JUnit.SimpleTests.LessonParam" />
-        <item itemvalue="JUnit.SimpleTests" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736970662543</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Урок по Сериализации и Десериализации">
+      <option name="closed" value="true" />
+      <created>1737020614288</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737020614288</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +265,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Новый учебный проект" />
     <MESSAGE value="Урок по созданию и использованию параметром в тестах" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок по созданию и использованию параметром в тестах" />
+    <MESSAGE value="Урок по Сериализации и Десериализации" />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок по Сериализации и Десериализации" />
   </component>
 </project>
