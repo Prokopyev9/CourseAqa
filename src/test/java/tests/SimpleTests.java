@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import models.People;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -17,6 +18,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.stream.Stream;
 
+@Tag("API")
  public class SimpleTests {
 
      @Test

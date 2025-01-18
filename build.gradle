@@ -25,4 +25,16 @@ dependencies {
 
 test {
     useJUnitPlatform()
+    testLogging(){
+        events "passed", "skipped", "failed"
+    }
+
+    tasks.register("myTags", Test.class){
+        String[] tags = System.getproperty("CustomTags").split(".")
+        useJUnitPlatform{
+            for (String tag: tags){
+                includeTags.add(tag)
+            }
+        }
+    }
 }
