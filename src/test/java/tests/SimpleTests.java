@@ -1,11 +1,10 @@
  package tests;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import listener.RetryListener;
 import models.People;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Tag;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.CsvFileSource;
@@ -19,7 +18,13 @@ import java.io.IOException;
 import java.util.stream.Stream;
 
 @Tag("API")
+@ExtendWith(RetryListener.class)
  public class SimpleTests {
+
+     @AfterAll
+    public static void saveFailed(){
+        RetryListener.saveFailedTests();
+    }
 
      @Test
      public void LessonParam() throws IOException {
